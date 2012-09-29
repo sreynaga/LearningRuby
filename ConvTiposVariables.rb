@@ -1,17 +1,17 @@
-class HolaMundo
+class ConvTiposVariables
 	def initialize()
 		
 	end
-	def saluda()
-		nombre = "1"
-		nombre = nombre.to_i #Convierte un valor a un entero
-		nombre = nombre.to_f #Convierte un valor a un flotante
-		valor = 1
-		valor = valor.to_s #Convierte un valor a un string
-		#puts nombre + valor
+	def convertir()
+		strNombre = "1"
+		intNombre = strNombre.to_i #Convierte un valor a un entero
+		floNombre = strNombre.to_f #Convierte un valor a un flotante
+		intValor = 1
+		strValor = intValor.to_s #Convierte un valor a un string
+		puts intNombre + intValor
 	end
 end
 
-objeto = HolaMundo.new()
-objeto.saluda
+objeto = ConvTiposVariables.new()
+objeto.convertir
 gets()
