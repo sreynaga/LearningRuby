@@ -1,7 +1,7 @@
 # Block : Otra forma de agrupar codigo en Ruby
 
 class Array
-	def iterar
+	def iterar()
 		self.each_with_index do | n, i |
 			self[i] = yield(n)
 		end
