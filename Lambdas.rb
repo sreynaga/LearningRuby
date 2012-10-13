@@ -1,3 +1,4 @@
+# Lambdas : Forma de agrupar codigo en Ruby
 class Lambdas
 	def initialize()
 		
